@@ -8,7 +8,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import train_test_split
 import logging
-from surprise import accuracy
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, 
